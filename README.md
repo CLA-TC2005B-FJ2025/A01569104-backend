@@ -61,10 +61,10 @@ GO
 
 ### Agregar algunos personajes
 ```sh
-INSERT INTO personajes (id, name, email) VALUES
-(1, 'Mark Grayson', 'mark@gmail.com'),
-(2, 'Allen the Alien', 'allen@gmail.com'),
-(3, 'Atom Eve', 'eve@gmail.com');
+INSERT INTO personajes (id, name, email, whatsapp) VALUES
+(1, 'Mark Grayson', 'mark@gmail.com', '1234567890'),
+(2, 'Allen the Alien', 'allen@gmail.com', '0987654321'),
+(3, 'Atom Eve', 'eve@gmail.com', '5463728190');
 GO
 ```
 
